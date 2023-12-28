@@ -10,6 +10,10 @@
   font-size: 18px;
 }
 
+.title {
+  font-family: 'Playfair Display', sans-serif;
+}
+
 img {
   width: 100%;
 }
@@ -23,15 +27,26 @@ img {
 
 .hero__title {
   color: #824936;
-  font-family: 'Playfair Display', sans-serif;
   font-size: 3.33rem;
 }
 
-.section__content {
+.section {
   padding: 6em;
 }
 
 .section__title {
   text-align: center;
   color: #824936;
+  font-size: 2rem;
+}
+
+.section__content {
+  display: flex;
+  line-height: 1.5em;
+  padding: 3em;
+  justify-content: space-between;
+}
+
+.section__content p {
+  width: 46%;
 }
