@@ -41,7 +41,7 @@ h1 {
     /* display: flex => flex container */
     display: flex;
     justify-content: space-between;
-    
+    gap: 2rem;
     /* can't use yet */
     /* gap: 100px; */
 }
@@ -49,6 +49,15 @@ h1 {
 .col {
     /* these are now flex items */
     width: 100%;
+}
+
+.col--blue {
+    padding: 0rem 2rem;
+    text-align: center;
+}
+
+.col__content {
+    margin: 4rem 0;
 }
 
 .col + .col {
@@ -67,11 +76,21 @@ h1 {
 
 .hero__img {
     width: 32%;
+    border: 1px solid red;
     align-self: flex-start;
 }
 
 .hero p {
     margin-bottom: 3em;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+article {
+    color: white;
+    background-color: #136C72;
 }
 
 .btn {
@@ -88,4 +107,8 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+
+.text-blue {
+    color: #136C72;
 }
