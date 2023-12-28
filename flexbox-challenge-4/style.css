@@ -21,7 +21,6 @@ img {
 .container {
   max-width: 1280px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .hero {
@@ -59,6 +58,23 @@ img {
 
 .section__two {
   background-color: #222C2A;
+}
+
+.flex--column {
   display: flex;
   justify-content: space-between;
+}
+
+.title--beige {
+  color: #F3EED9;
+  font-size: 2rem;
+}
+
+.section__text {
+  color: white;
+  width: 46%;
+}
+
+.section__image {
+  width: 46%;
 }
