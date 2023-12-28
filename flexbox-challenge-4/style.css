@@ -36,7 +36,7 @@ img {
 }
 
 .section {
-  padding: 6em;
+  padding: 4em;
 }
 
 .section__title--center {
@@ -75,6 +75,16 @@ img {
   width: 46%;
 }
 
+.section__text p {
+  line-height: 1.5em;
+  padding: 2em 0;
+  font-weight: 300;
+}
+
 .section__image {
   width: 46%;
+}
+
+.section__three {
+  background-color: #824936;
 }
