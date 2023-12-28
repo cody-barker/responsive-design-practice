@@ -18,6 +18,12 @@ img {
   width: 100%;
 }
 
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
 .hero {
   font-family: 'Roboto Light', sans-serif;
   text-align: center;
@@ -34,7 +40,7 @@ img {
   padding: 6em;
 }
 
-.section__title {
+.section__title--center {
   text-align: center;
   color: #824936;
   font-size: 2rem;
@@ -49,4 +55,10 @@ img {
 
 .section__content p {
   width: 46%;
+}
+
+.section__two {
+  background-color: #222C2A;
+  display: flex;
+  justify-content: space-between;
 }
