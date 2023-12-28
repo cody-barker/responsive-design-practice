@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+}
+
+.hero {
+  font-family: 'Roboto Light', sans-serif;
+  text-align: center;
+  background-color: #F3EED9;
+  padding: 12em;
+}
+
+.hero__title {
+  color: #824936;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 3.33rem;
+}
+
+.section__content {
+  padding: 6em;
+}
+
+.section__title {
+  text-align: center;
+  color: #824936;
+}
