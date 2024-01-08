@@ -209,13 +209,19 @@ header {
         visibility: visible;
         display: flex;
         height: auto;
+        position: relative;
+        justify-content: flex-end;
     }
 
     .nav__list {
        display: flex;
+       margin: 0;
+       padding: 0;
+       align-items: center;
     }
 
     .nav__item {
+        padding: 0 0.75em;
     }
 
     .row {
