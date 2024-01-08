@@ -77,6 +77,10 @@ header {
     padding: 0;
 }
 
+.nav__list--primary {
+    margin-bottom: 2em;
+}
+
 .nav__item {
     margin-top: 0.75em;
 }
@@ -93,17 +97,12 @@ header {
     opacity: 0.65;
 }
 
-.nav__list--primary {
-    margin-bottom: 2em;
-}
-
 .nav__link--button {
     padding: 0.25em 0.75em;
     background: white;
     color: #136c72;
     border-radius: 100px;
 }
-
 
 .nav-toggle {
     cursor: pointer;
@@ -215,31 +214,25 @@ header {
     .nav {
         visibility: visible;
         display: flex;
-        align-items: center;
         height: auto;
+        align-items: center;
+        position: relative;
+        justify-content: flex-end;
     }
 
     .nav__list {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 0 0 5em;
+       display: flex;
+       flex-direction: row;
+       margin: 0;
     }
 
-    .nav__list--primary {
-        
+    .nav__item {
+        margin: 0 0 0 1.5em;
     }
-
-    .nav__list--secondary {
-    
-    }
-
-
 
     .row {
         display: flex;
         justify-content: space-between;
-
     }
 
     .hero__text {
