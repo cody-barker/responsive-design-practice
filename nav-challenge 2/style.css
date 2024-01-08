@@ -205,8 +205,25 @@ header {
     .nav {
         visibility: visible;
         display: flex;
-        height: auto;
+        align-items: center;
     }
+
+    .nav__list {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1.3em 0 0 5em;
+    }
+
+    .nav__list--primary {
+        
+    }
+
+    .nav__list--secondary {
+    
+    }
+
+
 
     .row {
         display: flex;
