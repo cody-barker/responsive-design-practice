@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -5,6 +7,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 img {
@@ -18,6 +21,7 @@ img {
 .nav {
   background-color: #2E323F;
   color: white;
+  padding: 0.8em;
 }
 
 .container {
@@ -41,8 +45,15 @@ img {
   padding: 0;
   display: flex;
   text-transform: uppercase;
+  align-items: center;
 }
 
 .nav__item {
   margin-left: 1em;
+}
+
+.nav__button {
+  background-color:#A59678;
+  padding: 0.25em 1em;
+  border-radius: 1em;
 }
