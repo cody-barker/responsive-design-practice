@@ -20,7 +20,6 @@ img {
 
 .nav {
   background-color: #2E323F;
-  color: white;
   padding: 0.8em;
 }
 
@@ -50,6 +49,11 @@ img {
 
 .nav__item {
   margin-left: 1em;
+}
+
+.nav__item a {
+  color: white;
+  text-decoration: none;
 }
 
 .nav__button {
