@@ -15,7 +15,7 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
   padding: 0;
   margin: 0;
 }
@@ -114,6 +114,24 @@ img {
   margin-top: 1em;
 }
 
-.section__item--title {
-  color:#A59678
+.section-one {
+  background-color: #efefef;
+  padding: 5em 0;
 }
+
+.section__item {
+  text-align: center;
+  max-width: 15em;
+}
+
+.section__item--title {
+  color:#A59678;
+  font-size: 1.33rem;
+}
+
+.section__item--content {
+  font-family: 'Monstserrat', sans-serif;
+  padding: 1em 1em;
+}
+
+
