@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  background-color: #3B4050;
+}
+
+.nav {
+  background-color: #2E323F;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.row {
+  display: flex;
+}
+
+.nav__lists {
+  display: flex;
+}
+
+.nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.nav__item {
+  margin-left: 1em;
+}
