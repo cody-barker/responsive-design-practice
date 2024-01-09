@@ -29,6 +29,10 @@ img {
   max-width: 100%;
 }
 
+.color--bronze {
+  color:#A59678;
+}
+
 .header {
   background-color: #3B4050;
 }
