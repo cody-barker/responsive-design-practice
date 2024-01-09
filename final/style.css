@@ -33,6 +33,23 @@ img {
   color:#A59678;
 }
 
+.button {
+  background-color:#A59678;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.33rem;
+  padding: 0.25em 1.5em;
+  border-radius: 1em;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
 .header {
   background-color: #3B4050;
 }
@@ -82,6 +99,11 @@ img {
   border-radius: 1em;
 }
 
+.nav__item:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
 .header-content {
   padding: 8em 0;
   color: white;
@@ -100,18 +122,6 @@ img {
 .header__subtitle {
   width: 100%;
   line-height: 2em;
-}
-
-.button {
-  background-color:#A59678;
-  color: white;
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.33rem;
-  padding: 0.25em 1.5em;
-  border-radius: 1em;
-  border: none;
-  text-transform: uppercase;
-  margin-top: 1em;
 }
 
 .section-one {
