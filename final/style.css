@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,16 +12,19 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   padding: 0;
   margin: 0;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
@@ -30,13 +33,13 @@ img {
 }
 
 .color--bronze {
-  color:#A59678;
+  color: #a59678;
 }
 
 .button {
-  background-color:#A59678;
+  background-color: #a59678;
   color: white;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.33rem;
   padding: 0.25em 1.5em;
   border-radius: 1em;
@@ -51,11 +54,11 @@ img {
 }
 
 .header {
-  background-color: #3B4050;
+  background-color: #3b4050;
 }
 
 .nav {
-  background-color: #2E323F;
+  background-color: #2e323f;
   padding: 0.8em;
 }
 
@@ -94,7 +97,7 @@ img {
 }
 
 .nav__button {
-  background-color:#A59678;
+  background-color: #a59678;
   padding: 0.25em 1em;
   border-radius: 1em;
 }
@@ -129,19 +132,76 @@ img {
   padding: 5em 0;
 }
 
+.section-two {
+  padding: 5em 0;
+}
+
 .section__item {
   text-align: center;
   max-width: 15em;
 }
 
 .section__item--title {
-  color:#A59678;
+  color: #a59678;
   font-size: 1.33rem;
+  font-family: 'Oswald', sans-serif
+}
+
+.title-large {
+  font-size: 2rem;
 }
 
 .section__item--content {
-  font-family: 'Monstserrat', sans-serif;
+  font-family: "Monstserrat", sans-serif;
   padding: 1em 1em;
 }
+
+.section-two__content--left {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.section-two__content--left img {
+  margin: 2em 0;
+  width: 100%;
+}
+
+.section-two__content--left p {
+  font-family: 'Monsterrat', sans-serif;
+}
+
+.section-two__content--right {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1em;
+
+}
+
+.section__item--column {
+  background-color:#3B4050;
+  color: white;
+  padding: 1em;
+}
+
+.white {
+  color: white;
+}
+
+.font-30 {
+  font-size: 1.66rem;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+
+
+
 
 
