@@ -201,6 +201,66 @@ img {
   align-items: flex-start;
 }
 
+.footer {
+  background-color:#3B4050;
+  padding: 4em 0;
+}
+
+.footer__title {
+  font-size: 2.33rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.footer__content {
+  display: flex;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer__subtitle {
+  color:#a59678;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 1em;
+}
+
+.footer__content--1 {
+  max-width: 40%;
+  margin-right: 5em;
+}
+
+.footer__content--2 {
+  flex-grow: 1;
+}
+
+.footer__content--3 {
+  flex-grow: 1;
+}
+
+.footer__content--4 {
+  flex-grow: 1;
+}
+
+.footer__links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__link {
+  margin-bottom: 1em;
+}
+
+.footer__link a {
+  text-decoration: none;
+  color: white;
+  font-size: .9rem;
+}
+
+
+
 
 
 
