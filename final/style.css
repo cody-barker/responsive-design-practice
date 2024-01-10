@@ -264,6 +264,10 @@ img {
     display: block;
   }
 
+  .header__title {
+    margin-bottom: 2em;
+  }
+
   .section__one__content {
     display: flex;
     flex-direction: column;
@@ -287,6 +291,19 @@ img {
   .section-two__content--right {
     max-width: 100%;
     margin-top: 2em;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+  }
+
+  .footer__content--1 {
+    max-width: 100%;
+    margin: 0;
   }
 
 }
