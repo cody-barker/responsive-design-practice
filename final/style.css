@@ -260,6 +260,22 @@ img {
   font-size: .9rem;
 }
 
+@media (max-width: 1000px) {
+  .section__two--items {
+    flex-direction: column;
+  }
+
+  .section-two__content--left {
+    max-width: 100%;
+  }
+
+  .section-two__content--right {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 700px) {
   .nav__item {
     margin-left: 1em;
@@ -317,9 +333,7 @@ img {
   }
 
 }
-@media (max-width: 1000px) {
 
-}
 
 
 
