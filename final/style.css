@@ -260,6 +260,10 @@ img {
   font-size: .9rem;
 }
 
+.footer__block {
+  margin: 0 .5em;
+}
+
 @media (max-width: 1000px) {
   .section__two--items {
     flex-direction: column;
@@ -315,7 +319,7 @@ img {
   }
 
   .section-two__content--right {
-    max-width: 100%;
+    flex-direction: column;
     margin-top: 2em;
   }
 
@@ -331,7 +335,6 @@ img {
     max-width: 100%;
     margin: 0;
   }
-
 }
 
 
